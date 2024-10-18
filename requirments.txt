@@ -1,0 +1,9 @@
+torch==2.4.0
+trl==0.9.6
+transformers==4.44.1
+peft==0.11.1
+vllm==0.5.5
+flash-attn==2.6.3
+tensorboard
+tqdm
+pandas
