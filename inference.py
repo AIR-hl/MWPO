@@ -1,22 +1,20 @@
-import argparse
 import multiprocessing
 import os
 from os import path
-import json
 
 import numpy as np
 import pandas as pd
-from vllm import LLM
 from datasets import load_dataset
-from vllm.sampling_params import SamplingParams
 from transformers import AutoTokenizer
+from vllm import LLM
+from vllm.sampling_params import SamplingParams
 
 if __name__ == '__main__':
 
     # 路径设置
-    MODEL_PATH = "model/mistral-mwpo"
-    DATA_PATH = "datasets/alpaca_eval"
-    OUTPUT_PATH = "inference/alpaca_eval-mistral-mwpo"
+    MODEL_PATH = ""
+    DATA_PATH = "tatsu-lab/alpaca_eval"
+    OUTPUT_PATH = ""
     temperature = 0.7
     max_new_tokens = 2048
 

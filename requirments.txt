@@ -1,9 +1,9 @@
-torch==2.4.0
-trl==0.9.6
-transformers==4.44.1
+torch==2.3.1
+torch-npu=2.3.1
+trl==0.13.0
+transformers==4.46.3
 peft==0.11.1
-vllm==0.5.5
-flash-attn==2.6.3
 tensorboard
 tqdm
 pandas
+vllm==0.6.3.post1
